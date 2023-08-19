@@ -65,7 +65,8 @@ p {
 }
 
 .btn-branding-outline {
-  color: var(--branding-color);
+  background: var(--branding-color);
+  color: white;
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
