@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #62929a;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -7,6 +7,7 @@
 
 body {
   font-family: var(--default-font-family);
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
 }
 
 h1,
@@ -87,6 +88,11 @@ p {
   margin: 30px;
 }
 
+.about-img {
+  border-radius: 20px;
+  max-block-size: 600px;
+}
+
 .work-img {
   border-radius: 20px;
 }
@@ -153,6 +159,14 @@ footer .contact-box p {
   margin: 0;
 }
 
+footer a {
+  color: #352f44;
+}
+
+footer a:hover {
+  color: black;
+}
+
 footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
@@ -193,7 +207,7 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
-  3 {
+  h3 {
     font-size: 24px;
   }
 
@@ -205,5 +219,12 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 }
